@@ -1,3 +1,8 @@
 # Run
 
-ansible-playbook  -i hosts  helloworld.yml 
+  ansible-playbook  -i hosts  hi.yml 
+
+- With verbose
+
+  ansible-playbook -vvvv  -i hosts  hi.yml 
+ 
